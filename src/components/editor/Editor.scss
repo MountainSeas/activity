@@ -1,0 +1,30 @@
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .content{
+    width: 375px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentinner {
+    position: absolute;
+    width: 750px;
+    height: 1334px;
+    transform: scale(0.5);
+  }
+  .edit{
+    flex: 1;
+  }
+  .iframe{
+    border: none;
+    width: 750px;
+    height: 1334px;
+  }
+}

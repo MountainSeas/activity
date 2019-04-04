@@ -1,0 +1,50 @@
+{
+  "login": {
+    "title": {
+      "type": "string",
+      "defaultValue": "活动时间：2018年11月10日至2018年11月23日，数量有限，领完即止！",
+      "label": "活动时间"
+    },
+    "phone": {
+      "type": "string",
+      "defaultValue": "",
+      "label": "手机号码"
+    },
+    "code": {
+      "type": "string",
+      "defaultValue": "",
+      "label": "验证码"
+    },
+    "read": {
+      "type": "boolean",
+      "defaultValue": true,
+      "label": "协议"
+    },
+    "bgi": {
+      "type": "file",
+      "defaultValue": "",
+      "label": "背景图"
+    }
+  },
+  "rule": {
+    "show": {
+      "type": "boolean",
+      "defaultValue": false,
+      "label": "显示/隐藏 规则界面"
+    },
+    "title": {
+      "type": "string",
+      "defaultValue": "活动规则",
+      "label": "标题"
+    },
+    "data": {
+      "type": "array",
+      "defaultValue": [
+        "菁选福袋专属优惠券仅限会员领取， 每位会员仅可领取一次；",
+        "您可在悠宝利微信公众号、宝能菁选APP中查询账户优惠券，查询方式：个人中心>我的优惠券；",
+        "您可在全国悠宝利精选店，悠宝利微信小程序商城或宝能菁选APP上购物使用，具体使用规则以优惠券及相关活动页面规则为准；"
+      ],
+      "label": "活动规则"
+    }
+  }
+}

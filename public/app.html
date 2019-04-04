@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>活动</title>
+  <script>
+    const doc = document;
+    const docEl = doc.documentElement
+    var metaEl = doc.createElement('meta');
+    const scale = 1 / window.devicePixelRatio
+    metaEl.setAttribute('name', 'viewport');
+    metaEl.setAttribute('content', 'shrink-to-fit=no,width=device-width,initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+    docEl.firstElementChild.appendChild(metaEl);
+    docEl.style.fontSize = docEl.clientWidth / 35 + 'px';
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
